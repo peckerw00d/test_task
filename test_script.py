@@ -6,9 +6,9 @@ BASE_URL = "http://localhost:8000"
 def test_get_form():
     data = {
         "data": {
-            "first_field": "test_email@gmail.com",
-            "second_field": "88005553535",
-            "third_field": "2002-12-07",
+            "email_field": "user@example.com",
+            "phone_field": "88005553535",
+            "date_field": "2021-10-28",
         }
     }
     response = requests.post(f"{BASE_URL}/get_form", json=data)
