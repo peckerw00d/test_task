@@ -10,7 +10,7 @@ cd test_task
 ## 2. Сборка и запуск Docker-контейнера
 
 ```bash
-docker-compose up --build
+make setup
 ```
 
 Приложение будет доступно по адресу:
