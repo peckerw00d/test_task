@@ -1,1 +1,1 @@
-{"templates": {"1": {"name": "Login_Template", "fields": {"additionalProp1": "email", "additionalProp2": "phone", "additionalProp3": "phone"}}}}
+{"templates": {"1": {"name": "First Template", "fields": {"first_field": "email", "second_field": "phone", "third_field": "date"}}, "2": {"name": "Second Template", "fields": {"first_field": "phone", "second_field": "email", "third_field": "text"}}, "3": {"name": "Third Template", "fields": {"first_field": "date", "second_field": "phone", "third_field": "email", "fourth_field": "text"}}}}

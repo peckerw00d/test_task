@@ -26,7 +26,7 @@ def update_template(template_id: int, updated_template: FormTemplate):
 
 def delete_template(template_id: int):
     templates_table.remove(doc_ids=[template_id])
-    return f"Your template has been deleted"
+    return f"The template has been deleted"
 
 
 def find_matching_templates(form_data: FormData, table: Table) -> str | dict[str, str]:
