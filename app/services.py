@@ -1,7 +1,7 @@
 from tinydb.table import Table
 
-from models import FormData, FormTemplate
-from db import templates_table
+from app.models import FormData, FormTemplate
+from app.db import templates_table
 
 
 def get_templates():

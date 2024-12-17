@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from db import templates_table
-from models import FormTemplate, FormData
+from app.db import templates_table
+from app.models import FormTemplate, FormData
 import services
 
 router = APIRouter(tags=["forms"])
