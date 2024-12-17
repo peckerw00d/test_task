@@ -6,7 +6,7 @@ BASE_URL = "http://localhost:8000"
 def test_get_form():
     data = {
         "data": {
-            "email_field": "user@example.com",
+            "email_field": "my_email@gmail.com",
             "phone_field": "88005553535",
             "date_field": "2021-10-28",
         }
